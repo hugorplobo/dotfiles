@@ -1,0 +1,28 @@
+{
+    "wallpaper": "/home/hugo/.config/wpg/wallpapers/landscape_1",
+    "alpha": "100",
+
+    "special": {
+        "background": "#3c4c55",
+        "foreground": "#f2c38f",
+        "cursor": "#f2c38f"
+    },
+    "colors": {
+        "color0": "#3c4c55",
+        "color1": "#556873",
+        "color2": "#6a7d89",
+        "color3": "#899ba6",
+        "color4": "#899ba6",
+        "color5": "#c5d4dd",
+        "color6": "#899ba6",
+        "color7": "#556873",
+        "color8": "#83afe5",
+        "color9": "#7fc1ca",
+        "color10": "#a8ce93",
+        "color11": "#7fc1ca",
+        "color12": "#f2c38f",
+        "color13": "#83afe5",
+        "color14": "#9a93e1",
+        "color15": "#f2c38f"
+    }
+}

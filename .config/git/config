@@ -1,0 +1,15 @@
+[credential]
+	helper = "store"
+
+[pull]
+	rebase = true
+
+[push]
+	autoSetupRemote = true
+
+[user]
+	email = "hugorplobo@gmail.com"
+	name = "Hugo Lobo"
+
+[core]
+	editor = "nvim"

@@ -1,0 +1,83 @@
+[
+  {
+    "backlight": {
+      "format": "󰖨 {percent}%",
+      "interval": 2
+    },
+    "battery": {
+      "format": "{icon} {capacity}%",
+      "format-icons": [
+        "󰂎",
+        "󰁺",
+        "󰁻",
+        "󰁼",
+        "󰁽",
+        "󰁾",
+        "󰁿",
+        "󰂀",
+        "󰂁",
+        "󰂂",
+        "󰁹"
+      ],
+      "interval": 10,
+      "tooltip": true,
+      "tooltip-true": "{timeTo}"
+    },
+    "clock": {
+      "format": "{:%B %d, %H:%M}",
+      "interval": 60,
+      "tooltip": false
+    },
+    "cpu": {
+      "format": " {usage}%",
+      "interval": 5
+    },
+    "hyprland/workspaces": {
+      "format": "{icon}"
+    },
+    "layer": "top",
+    "margin": "10 5 0 5",
+    "memory": {
+      "format": " {used}",
+      "interval": 5,
+      "tooltip-format": "{used}GiB used of {total}GiB ({percentage}%)"
+    },
+    "modules-center": [
+      "clock"
+    ],
+    "modules-left": [
+      "tray",
+      "hyprland/workspaces"
+    ],
+    "modules-right": [
+      "network",
+      "backlight",
+      "wireplumber",
+      "battery",
+      "memory",
+      "cpu"
+    ],
+    "network": {
+      "format": "",
+      "format-wifi": "  {essid}",
+      "interface": "wlan0"
+    },
+    "position": "top",
+    "spacing": "10",
+    "tray": {
+      "spacing": 10
+    },
+    "wireplumber": {
+      "format": "{icon} {volume}%",
+      "format-icons": [
+        "",
+        " ",
+        " ",
+        " ",
+        " "
+      ],
+      "format-muted": "󰝟",
+      "on-click": "mute=$(pamixer --get-mute);\nif [[ \"$mute\" == \"true\" ]];\n    then pamixer -u;\nelse\n    pamixer -m;\nfi\n"
+    }
+  }
+]

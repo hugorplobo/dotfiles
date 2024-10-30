@@ -1,0 +1,28 @@
+{
+    "wallpaper": "/home/hugo/.config/wpg/wallpapers/interstellar",
+    "alpha": "100",
+
+    "special": {
+        "background": "#080C08",
+        "foreground": "#fffff3",
+        "cursor": "#fffff3"
+    },
+    "colors": {
+        "color0": "#080C08",
+        "color1": "#F2D0AE",
+        "color2": "#EDDAC5",
+        "color3": "#DDB396",
+        "color4": "#757A86",
+        "color5": "#A19A94",
+        "color6": "#A9BFD3",
+        "color7": "#f6ede0",
+        "color8": "#1b2a1b",
+        "color9": "#ffffbb",
+        "color10": "#ffffce",
+        "color11": "#ffe4aa",
+        "color12": "#8797be",
+        "color13": "#e5c6ac",
+        "color14": "#c3f9ff",
+        "color15": "#fffff3"
+    }
+}

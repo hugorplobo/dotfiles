@@ -1,0 +1,72 @@
+* {
+    font-family: monospace;
+    font-size: 13px;
+    color: #fffff3;
+}
+
+window#waybar {
+    background: transparent;
+}
+
+.modules-left,
+.modules-center,
+.modules-right {
+    background: transparent;
+    padding: 0 5px;
+}
+
+#clock,
+#battery,
+#cpu,
+#memory,
+#disk,
+#temperature,
+#backlight,
+#network,
+#pulseaudio,
+#wireplumber,
+#custom-media,
+#tray,
+#mode,
+#idle_inhibitor,
+#scratchpad,
+#power-profiles-daemon,
+#mpd,
+#workspaces {
+    padding: 0 10px;
+    margin: 0 2px;
+    border-radius: 20px;
+    background: #080C08;
+}
+
+#network {
+    color: #ffffbb;
+}
+
+#backlight {
+    color: #ffffce;
+}
+
+#wireplumber {
+    color: #ffe4aa;
+}
+
+#battery {
+    color: #8797be;
+}
+
+#memory {
+    color: #e5c6ac;
+}
+
+#cpu {
+    color: #c3f9ff;
+}
+
+#clock {
+    padding: 0 15px;
+}
+
+#workspaces button.active * {
+    color: #b79e89;
+}

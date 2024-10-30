@@ -1,0 +1,28 @@
+{
+    "wallpaper": "/home/hugo/.config/wpg/wallpapers/suzume_2",
+    "alpha": "100",
+
+    "special": {
+        "background": "#0c1321",
+        "foreground": "#e7ffff",
+        "cursor": "#e7ffff"
+    },
+    "colors": {
+        "color0": "#0c1321",
+        "color1": "#C6BBAF",
+        "color2": "#5B728B",
+        "color3": "#ABA463",
+        "color4": "#306392",
+        "color5": "#A09D99",
+        "color6": "#73ABC7",
+        "color7": "#c3deea",
+        "color8": "#182746",
+        "color9": "#fff4cb",
+        "color10": "#6793c3",
+        "color11": "#efe36f",
+        "color12": "#3181ca",
+        "color13": "#e4ceb2",
+        "color14": "#81e5ff",
+        "color15": "#e7ffff"
+    }
+}

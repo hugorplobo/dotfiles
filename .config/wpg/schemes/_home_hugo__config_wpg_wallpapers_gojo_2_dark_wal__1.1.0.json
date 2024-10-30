@@ -1,0 +1,28 @@
+{
+    "wallpaper": "/home/hugo/.config/wpg/wallpapers/gojo_2",
+    "alpha": "100",
+
+    "special": {
+        "background": "#0A0606",
+        "foreground": "#fff8eb",
+        "cursor": "#fff8eb"
+    },
+    "colors": {
+        "color0": "#0A0606",
+        "color1": "#C7503D",
+        "color2": "#F8A947",
+        "color3": "#FDCC5B",
+        "color4": "#1654AD",
+        "color5": "#C15993",
+        "color6": "#1FD1F0",
+        "color7": "#efd8cd",
+        "color8": "#2a1717",
+        "color9": "#ff5b3e",
+        "color10": "#ffdd47",
+        "color11": "#ffff5f",
+        "color12": "#0f6aed",
+        "color13": "#ff61c1",
+        "color14": "#16ffff",
+        "color15": "#fff8eb"
+    }
+}

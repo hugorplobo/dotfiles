@@ -1,0 +1,28 @@
+{
+    "wallpaper": "/home/hugo/.config/wpg/wallpapers/akira",
+    "alpha": "100",
+
+    "special": {
+        "background": "#0c0c0c",
+        "foreground": "#fff9fa",
+        "cursor": "#fff9fa"
+    },
+    "colors": {
+        "color0": "#0c0c0c",
+        "color1": "#C71F74",
+        "color2": "#911F58",
+        "color3": "#8D6463",
+        "color4": "#5677A0",
+        "color5": "#C92578",
+        "color6": "#AF236A",
+        "color7": "#cfc6c7",
+        "color8": "#252525",
+        "color9": "#ff1996",
+        "color10": "#c81c72",
+        "color11": "#c67371",
+        "color12": "#5f98df",
+        "color13": "#ff209c",
+        "color14": "#f11f89",
+        "color15": "#fff9fa"
+    }
+}

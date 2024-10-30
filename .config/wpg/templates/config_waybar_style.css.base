@@ -1,0 +1,72 @@
+* {{
+    font-family: monospace;
+    font-size: 13px;
+    color: {foreground};
+}}
+
+window#waybar {{
+    background: transparent;
+}}
+
+.modules-left,
+.modules-center,
+.modules-right {{
+    background: transparent;
+    padding: 0 5px;
+}}
+
+#clock,
+#battery,
+#cpu,
+#memory,
+#disk,
+#temperature,
+#backlight,
+#network,
+#pulseaudio,
+#wireplumber,
+#custom-media,
+#tray,
+#mode,
+#idle_inhibitor,
+#scratchpad,
+#power-profiles-daemon,
+#mpd,
+#workspaces {{
+    padding: 0 10px;
+    margin: 0 2px;
+    border-radius: 20px;
+    background: {background};
+}}
+
+#network {{
+    color: {color9};
+}}
+
+#backlight {{
+    color: {color10};
+}}
+
+#wireplumber {{
+    color: {color11};
+}}
+
+#battery {{
+    color: {color12};
+}}
+
+#memory {{
+    color: {color13};
+}}
+
+#cpu {{
+    color: {color14};
+}}
+
+#clock {{
+    padding: 0 15px;
+}}
+
+#workspaces button.active * {{
+    color: {active};
+}}
