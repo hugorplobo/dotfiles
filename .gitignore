@@ -6,6 +6,9 @@
 .config/wpg/sequences
 .config/wpg/wp_init.sh
 
+# Ignore backup of generated files
+**/*.bak
+
 # Ignore all template files except the base ones
 .config/wpg/templates/*
 !.config/wpg/templates/*.base
