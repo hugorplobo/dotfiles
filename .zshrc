@@ -46,7 +46,8 @@ setopt hist_save_no_dups
 setopt hist_ignore_dups
 setopt hist_find_no_dups
 
-bindkey "^[[A" history-search-backward
+bindkey "^[[A" history-beginning-search-backward
+bindkey "^[[B" history-beginning-search-forward
 
 zstyle ':completion:*' matcher-list 'm:{a-z}={A-Za-z}'
 zstyle ':completion:*' list-colors "${(s.:.)LS_COLORS}"
@@ -55,7 +56,7 @@ zstyle ':completion:*' list-colors "${(s.:.)LS_COLORS}"
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
 function bg() {
-  wpg -s $1
+  wpg -s $1 1> /dev/null
 }
 
 export ZVM_VI_EDITOR=nvim
