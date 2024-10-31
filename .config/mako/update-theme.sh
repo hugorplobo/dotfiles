@@ -1,8 +1,8 @@
 #!/bin/sh
 
-. "/home/hugo/.cache/wal/colors.sh"
+. "$HOME/.cache/wal/colors.sh"
 
-conffile="/home/hugo/.config/mako/config"
+conffile="$HOME/.config/mako/config"
 
 # Associative array, color name -> color code.
 declare -A colors
