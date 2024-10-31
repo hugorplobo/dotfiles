@@ -1,0 +1,27 @@
+background-color=#080C08
+text-color=#fffff3
+border-color=#A19A94
+
+max-visible=3
+sort=+time
+
+layer=top
+anchor=top-right
+
+font=monospace 10
+width=300
+height=100
+margin=10
+padding=5
+border-size=1
+border-radius=10
+icons=true
+max-icon-size=64
+
+markup=true
+actions=true
+format=<b>%s</b>\n%b
+default-timeout=5000
+ignore-timeout=false
+
+outer-margin=10
