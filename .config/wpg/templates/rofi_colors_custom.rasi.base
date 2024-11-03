@@ -2,7 +2,7 @@
     background:     {color0};
     background-alt: {color1};
     foreground:     {color5};
-    selected:       {color2};
+    selected:       {color8};
     active:         {color9};
-    urgent:         {color8};
+    urgent:         {color10};
 }}
