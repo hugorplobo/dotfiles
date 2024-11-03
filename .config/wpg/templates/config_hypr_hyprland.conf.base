@@ -2,7 +2,8 @@ exec-once = /home/hugo/.config/hypr/startup.sh
 
 $browser=zen-browser
 $fileManager=nemo
-$menu=rofi -show drun
+$launcher=$HOME/.config/rofi/launchers/type-2/launcher.sh
+$powermenu=$HOME/.config/rofi/powermenu/type-2/powermenu.sh
 $mod=SUPER
 $terminal=kitty
 
@@ -42,8 +43,8 @@ dwindle {{
 general {{
   allow_tearing=false
   border_size=2
-  col.active_border=rgb({active.strip})
-  col.inactive_border=rgb({inactive.strip})
+  col.active_border=rgb({color8.strip})
+  col.inactive_border=rgb({color5.strip})
   gaps_in=5
   gaps_out=10
   layout=dwindle
@@ -76,9 +77,9 @@ master {{
 }}
 
 misc {{
-  background_color=rgb(1e1e2e)
   disable_hyprland_logo=true
   force_default_wallpaper=0
+  focus_on_activate=1
 }}
 
 bind=$mod, Q, exec, $terminal
@@ -86,7 +87,7 @@ bind=$mod, C, killactive
 bind=$mod, M, exit,
 bind=$mod, E, exec, $fileManager
 bind=$mod, V, togglefloating,
-bind=$mod, R, exec, $menu
+bind=$mod, R, exec, $launcher
 bind=$mod, W, exec, $browser
 bind=$mod, P, pseudo,
 bind=$mod, J, togglesplit,
@@ -95,7 +96,7 @@ bind=, Print, exec, grim - | swappy -f -
 bind=$mod, L, exec, hyprlock
 bind=$mod, N, exec, networkmanager_dmenu
 bind=$mod SHIFT, Q, exec, pypr toggle term
-bind=$mod, X, exec, pypr menu power
+bind=$mod, X, exec, $powermenu
 bind=, XF86MonBrightnessUp, exec, value=$(brightnessctl g); brightnessctl s $(($value + 25))
 bind=, XF86MonBrightnessDown, exec, value=$(brightnessctl g); brightnessctl s $(($value - 25))
 bind=, XF86AudioRaiseVolume, exec, pamixer -i 5
@@ -139,9 +140,6 @@ env=XCURSOR_SIZE,32
 env=HYPRCURSOR_SIZE,32
 env=HYPRCURSOR_THEME,Vanilla-DMZ
 
-layerrule=blur, rofi
-layerrule=blur, dashboard
-
 windowrulev2=workspace 1, class:(kitty)
 windowrulev2=workspace 2, class:(zen-alpha)
 windowrulev2=workspace 3, class:(nemo)
@@ -149,3 +147,4 @@ windowrulev2=workspace 4, class:(jetbrains-idea)
 windowrulev2=workspace 5, class:(Zotero)
 windowrulev2=workspace 6, class:(org.telegram.desktop)
 windowrulev2=workspace 6, class:(discord)
+windowrulev2=workspace 7, class:(Spotify)

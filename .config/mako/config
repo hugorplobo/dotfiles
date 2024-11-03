@@ -1,6 +1,6 @@
-background-color=#0c1321
-text-color=#e7ffff
-border-color=#A09D99
+background-color=#241d1a
+text-color=#b8a59d
+border-color=#b8a59d
 
 max-visible=3
 sort=+time
@@ -25,3 +25,6 @@ default-timeout=5000
 ignore-timeout=false
 
 outer-margin=10
+
+[mode=do-not-disturb]
+invisible=1

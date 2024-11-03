@@ -1,28 +1,28 @@
 {
-    "wallpaper": "/home/hugo/.config/wpg/wallpapers/stark",
-    "alpha": "100",
-
-    "special": {
-        "background": "#151210",
-        "foreground": "#e9ffff",
-        "cursor": "#e9ffff"
-    },
-    "colors": {
-        "color0": "#151210",
-        "color1": "#E2CCAE",
-        "color2": "#F2DAB8",
-        "color3": "#B48F6F",
-        "color4": "#748D9A",
-        "color5": "#D3C9BB",
-        "color6": "#98D3F6",
-        "color7": "#cae5f0",
-        "color8": "#312a25",
-        "color9": "#ffffc4",
-        "color10": "#ffffc2",
-        "color11": "#fcb87d",
-        "color12": "#85bcd9",
-        "color13": "#ffffd6",
-        "color14": "#a9ffff",
-        "color15": "#e9ffff"
-    }
+  "wallpaper": "/home/hugo/.config/wpg/wallpapers/stark",
+  "alpha": "100",
+  "special": {
+    "background": "#202020",
+    "foreground": "#ddc7a1",
+    "cursor": "#ddc7a1"
+  },
+  "colors": {
+    "color0": "#202020",
+    "color1": "#2a2827",
+    "color2": "#504945",
+    "color3": "#5a524c",
+    "color4": "#bdae93",
+    "color5": "#ddc7a1",
+    "color6": "#ebdbb2",
+    "color7": "#fbf1c7",
+    "color8": "#ea6962",
+    "color9": "#e78a4e",
+    "color10": "#d8a657",
+    "color11": "#a9b665",
+    "color12": "#89b482",
+    "color13": "#7daea3",
+    "color14": "#d3869b",
+    "color15": "#bd6f3e"
+  }
 }
+

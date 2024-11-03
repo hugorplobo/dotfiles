@@ -1,7 +1,7 @@
 * {{
     font-family: monospace;
     font-size: 13px;
-    color: {foreground};
+    color: {color5};
 }}
 
 window#waybar {{
@@ -36,31 +36,31 @@ window#waybar {{
     padding: 0 10px;
     margin: 0 2px;
     border-radius: 20px;
-    background: {background};
+    background: {color0};
 }}
 
 #network {{
-    color: {color9};
+    color: {color8};
 }}
 
 #backlight {{
-    color: {color10};
+    color: {color9};
 }}
 
 #wireplumber {{
-    color: {color11};
+    color: {color10};
 }}
 
 #battery {{
-    color: {color12};
+    color: {color11};
 }}
 
 #memory {{
-    color: {color13};
+    color: {color12};
 }}
 
 #cpu {{
-    color: {color14};
+    color: {color13};
 }}
 
 #clock {{
@@ -68,5 +68,5 @@ window#waybar {{
 }}
 
 #workspaces button.active * {{
-    color: {active};
+    color: {color9};
 }}
