@@ -17,7 +17,7 @@ source ${ZDOTDIR:-${HOME}}/.zcomet/bin/zcomet.zsh
 
 # plugins
 zcomet load romkatv/powerlevel10k
-zcomet load jeffreytse/zsh-vi-mode
+# zcomet load jeffreytse/zsh-vi-mode
 zcomet load ohmyzsh plugins/command-not-found
 zcomet load ohmyzsh plugins/sudo
 zcomet load ohmyzsh plugins/bgnotify
