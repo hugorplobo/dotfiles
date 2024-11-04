@@ -79,7 +79,7 @@ master {{
 misc {{
   disable_hyprland_logo=true
   force_default_wallpaper=0
-  focus_on_activate=1
+  focus_on_activate=0
 }}
 
 bind=$mod, Q, exec, $terminal
