@@ -5,6 +5,7 @@
 .config/wpg/.current
 .config/wpg/sequences
 .config/wpg/wp_init.sh
+.config/rofi/colors/custom.rasi
 
 # Ignore backup of generated files
 **/*.bak
