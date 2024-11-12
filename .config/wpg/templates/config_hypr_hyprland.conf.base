@@ -11,8 +11,8 @@ animations {{
   bezier=myBezier, 0.05, 0.9, 0.1, 1.05
   animation=windows, 1, 7, myBezier
   animation=windowsOut, 1, 7, default, popin 80%
-  animation=border, 1, 10, default
-  animation=borderangle, 1, 8, default
+  animation=border, 0
+  animation=borderangle, 0
   animation=fade, 1, 7, default
   animation=workspaces, 1, 6, default
   enabled=true
@@ -27,12 +27,8 @@ decoration {{
   }}
 
   active_opacity=1.000000
-  col.shadow=rgba(1e1e2e99)
-  drop_shadow=true
   inactive_opacity=1.000000
   rounding=10
-  shadow_range=4
-  shadow_render_power=3
 }}
 
 dwindle {{
@@ -90,13 +86,13 @@ bind=$mod, V, togglefloating,
 bind=$mod, R, exec, $launcher
 bind=$mod, W, exec, $browser
 bind=$mod, P, pseudo,
-bind=$mod, J, togglesplit,
 bind=$mod, S, exec, grim -g "$(slurp)" - | swappy -f -
 bind=, Print, exec, grim - | swappy -f -
 bind=$mod, L, exec, hyprlock
 bind=$mod, N, exec, networkmanager_dmenu
 bind=$mod SHIFT, Q, exec, pypr toggle term
 bind=$mod, X, exec, $powermenu
+bind=$mod, Y, togglesplit
 bind=, XF86MonBrightnessUp, exec, value=$(brightnessctl g); brightnessctl s $(($value + 25))
 bind=, XF86MonBrightnessDown, exec, value=$(brightnessctl g); brightnessctl s $(($value - 25))
 bind=, XF86AudioRaiseVolume, exec, pamixer -i 5
@@ -147,4 +143,5 @@ windowrulev2=workspace 4, class:(jetbrains-idea)
 windowrulev2=workspace 5, class:(Zotero)
 windowrulev2=workspace 6, class:(org.telegram.desktop)
 windowrulev2=workspace 6, class:(discord)
+windowrulev2=workspace 6, class:(vesktop)
 windowrulev2=workspace 7, class:(Spotify)
