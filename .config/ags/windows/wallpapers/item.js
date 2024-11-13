@@ -1,3 +1,5 @@
+import GLib from "gi://GLib";
+
 export function WallpaperItem(img, windowName) {
     const directory = "/home/hugo/dotfiles/wallpapers";
 
@@ -5,7 +7,7 @@ export function WallpaperItem(img, windowName) {
         className: "wallpaper-item",
         cursor: "pointer",
         onClicked: () => {
-            Utils.execAsync(["wpg", "-s", img]);
+            Utils.execAsync([GLib.get_home_dir() + "/scripts/bg.sh", img]);
             App.toggleWindow(windowName);
         },
         child: Widget.Icon({

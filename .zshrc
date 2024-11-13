@@ -62,7 +62,7 @@ zstyle ':completion:*' list-colors "${(s.:.)LS_COLORS}"
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
 function bg() {
-  wpg -s $1 &> /dev/null
+  $HOME/scripts/bg.sh $1 &> /dev/null
 }
 
 export ZVM_VI_EDITOR=nvim
