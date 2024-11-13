@@ -1,4 +1,4 @@
-pypr &
+ags &
 waybar &
 swww-daemon &
 /home/hugo/.config/wpg/wp_init.sh &

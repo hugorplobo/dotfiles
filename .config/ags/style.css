@@ -1,0 +1,22 @@
+.wallpapers-window {
+    background-color: #212123;
+}
+
+.container {
+    min-height: 1080px;
+    min-width: 500px;
+}
+
+.wallpaper-item {
+    padding: 10px;
+    margin: 10px 10px 0 10px;
+    background-color: transparent;
+}
+
+.wallpaper-item:hover {
+    background-color: #47474b;
+}
+
+.wallpaper-icon {
+    font-size: 500px;
+}
