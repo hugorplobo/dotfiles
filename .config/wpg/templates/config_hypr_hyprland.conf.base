@@ -85,6 +85,7 @@ bind=$mod, E, exec, $fileManager
 bind=$mod, V, togglefloating,
 bind=$mod, R, exec, $launcher
 bind=$mod, W, exec, $browser
+bind=$mod SHIFT, W, exec, ags --toggle-window "wallpapers"
 bind=$mod, P, pseudo,
 bind=$mod, S, exec, grim -g "$(slurp)" - | swappy -f -
 bind=, Print, exec, grim - | swappy -f -
@@ -145,3 +146,7 @@ windowrulev2=workspace 6, class:(org.telegram.desktop)
 windowrulev2=workspace 6, class:(discord)
 windowrulev2=workspace 6, class:(vesktop)
 windowrulev2=workspace 7, class:(Spotify)
+
+layerrule = dimaround, wallpapers
+layerrule = animation slide, wallpapers
+layerrule = dimaround, rofi
