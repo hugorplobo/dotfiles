@@ -1,0 +1,13 @@
+backend = "resized"
+color_space = "lab"
+palette = "dark"
+
+[templates]
+hyprland.template = "hyprland.conf"
+hyprland.target = "~/.config/hypr/hyprland.conf"
+
+waybar.template = "waybar_style.css"
+waybar.target = "~/.config/waybar/style.css"
+
+kitty.template = "kitty_theme.conf"
+kitty.target = "~/.config/kitty/theme.conf"
