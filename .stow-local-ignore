@@ -1,3 +1,5 @@
 .git/
 .config/hypr/hyprland.conf
+.config/kitty/theme.conf
+.config/waybar/style.css
 .config/rofi/colors.rasi
