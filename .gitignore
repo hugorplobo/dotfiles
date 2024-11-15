@@ -2,14 +2,4 @@
 .config/hypr/hyprland.conf
 .config/kitty/theme.conf
 .config/waybar/style.css
-.config/wpg/.current
-.config/wpg/sequences
-.config/wpg/wp_init.sh
-.config/rofi/colors/custom.rasi
-
-# Ignore backup of generated files
-**/*.bak
-
-# Ignore all template files except the base ones
-.config/wpg/templates/*
-!.config/wpg/templates/*.base
+.config/rofi/colors.rasi
